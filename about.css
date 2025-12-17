@@ -6,6 +6,7 @@ body{
     black 50%,
     rgb(0, 221, 255)
   );
+  height: 100vh;
 }
 
 /* MAIN CONTAINER */
