@@ -195,6 +195,48 @@ body{
     width: 100px;
   }
 }
+/* ===== Mobile Responsive Fix ===== */
+@media (max-width: 768px) {
+
+  body {
+    height: auto;
+    background-attachment: scroll;
+  }
+
+  #max {
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  #min {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+
+  #leo {
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  /* IMAGE FIX (IMPORTANT PART) */
+  #teo img,
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+}
 
 
 
