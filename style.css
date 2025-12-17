@@ -80,6 +80,122 @@ body{
   top: 200px;
   
 }
+/* ---------- Large screens (default stays same) ---------- */
+/* Your current CSS works for desktop ≥1200px */
+
+
+/* ---------- Tablets (max-width: 1024px) ---------- */
+@media (max-width: 1024px) {
+
+  #max {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 40px;
+  }
+
+  #min {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #leo {
+    margin-left: 0;
+    width: 350px;
+  }
+
+  #teo,
+  #icon,
+  #Download {
+    left: 70px;
+  }
+
+  #image {
+    position: static;
+    display: block;
+    margin: 40px auto 0;
+    text-align: center;
+  }
+}
+
+
+/* ---------- Mobile screens (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+
+  body {
+    height: auto;
+  }
+
+  #max {
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  #min {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #leo {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #leo a {
+    font-size: 14px;
+  }
+
+  #teo {
+    left: 0;
+    top: 40px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  #icon {
+    left: 0;
+    top: 50px;
+    text-align: center;
+  }
+
+  #Download {
+    left: 0;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #image {
+    position: static;
+    width: 250px;
+    margin: 30px auto 0;
+  }
+}
+
+
+/* ---------- Small mobiles (max-width: 480px) ---------- */
+@media (max-width: 480px) {
+
+  #port {
+    font-size: 22px;
+  }
+
+  #leo a {
+    font-size: 13px;
+  }
+
+  #icon {
+    font-size: 30px;
+  }
+
+  #image {
+    width: 200px;
+  }
+}
+
 
 
 

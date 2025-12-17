@@ -119,4 +119,120 @@ h2{
     background-color: white;
     box-shadow: 0 0 25px white;
 }
+/* ================= TABLETS (max-width: 1024px) ================= */
+@media (max-width: 1024px) {
+
+  #max {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 40px;
+  }
+
+  #min {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #leo {
+    margin-left: 0;
+    width: 350px;
+  }
+
+  h2 {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 34px;
+  }
+
+  #contact-section {
+    position: static;
+    width: 70%;
+    margin: 30px auto 0;
+  }
+}
+
+
+/* ================= MOBILE (max-width: 768px) ================= */
+@media (max-width: 768px) {
+
+  body {
+    height: auto;
+  }
+
+  #max {
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  /* NAV STACK */
+  #min {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #leo {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #leo a {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+
+  #contact-section {
+    width: 90%;
+    margin: 20px auto 0;
+  }
+
+  .contact-box {
+    padding: 25px;
+  }
+
+  .contact-box p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #mail-btn {
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+}
+
+
+/* ================= SMALL MOBILE (max-width: 480px) ================= */
+@media (max-width: 480px) {
+
+  #port {
+    font-size: 22px;
+  }
+
+  #leo a {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .contact-box p {
+    font-size: 15px;
+  }
+
+  #mail-btn {
+    padding: 12px 26px;
+    font-size: 14px;
+  }
+}
 

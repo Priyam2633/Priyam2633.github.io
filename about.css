@@ -111,4 +111,119 @@ body{
     background-color: white;
     box-shadow: 0 0 20px white;
 }
+/* ================= TABLETS (max-width: 1024px) ================= */
+@media (max-width: 1024px) {
+
+  #max {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 40px;
+  }
+
+  #min {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #leo {
+    margin-left: 0;
+    width: 350px;
+  }
+
+  #about-section {
+    left: 60px;
+    width: 85%;
+    top: 20px;
+  }
+
+  #about-section h2 {
+    font-size: 34px;
+  }
+
+  #about-section p {
+    font-size: 17px;
+  }
+}
+
+
+/* ================= MOBILE (max-width: 768px) ================= */
+@media (max-width: 768px) {
+
+  body {
+    height: auto;
+  }
+
+  #max {
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  /* NAV STACK */
+  #min {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #leo {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #leo a {
+    font-size: 14px;
+  }
+
+  /* ABOUT SECTION CENTER */
+  #about-section {
+    position: static;
+    width: 90%;
+    margin: 30px auto 0;
+    text-align: center;
+  }
+
+  #about-section p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  #about-section h2 {
+    font-size: 30px;
+  }
+
+  #about-btn {
+    margin: 25px auto 0;
+    display: block;
+  }
+}
+
+
+/* ================= SMALL MOBILE (max-width: 480px) ================= */
+@media (max-width: 480px) {
+
+  #port {
+    font-size: 22px;
+  }
+
+  #leo a {
+    font-size: 13px;
+  }
+
+  #about-section h2 {
+    font-size: 26px;
+  }
+
+  #about-section p {
+    font-size: 15px;
+  }
+
+  #about-btn {
+    padding: 12px 26px;
+    font-size: 14px;
+  }
+}
 

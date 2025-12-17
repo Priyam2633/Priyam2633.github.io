@@ -110,4 +110,114 @@ body{
     transform: translateY(-8px);
     box-shadow: 0 0 25px rgb(0,221,255);
 }
+/* ================= TABLETS (max-width: 1024px) ================= */
+@media (max-width: 1024px) {
+
+  #max {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 40px;
+  }
+
+  #min {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #leo {
+    margin-left: 0;
+    width: 350px;
+  }
+
+  #skills-section {
+    position: static;
+    width: 90%;
+    margin: 20px auto 0;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* ================= MOBILE (max-width: 768px) ================= */
+@media (max-width: 768px) {
+
+  body {
+    height: auto;
+  }
+
+  #max {
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  /* NAV STACK */
+  #min {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #leo {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #leo a {
+    font-size: 14px;
+  }
+
+  #skills-section h2 {
+    font-size: 30px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .skill-card {
+    width: 170px;
+    height: 130px;
+  }
+
+  .skill-card i {
+    font-size: 38px;
+  }
+
+  .skill-card p {
+    font-size: 16px;
+  }
+}
+
+
+/* ================= SMALL MOBILE (max-width: 480px) ================= */
+@media (max-width: 480px) {
+
+  #port {
+    font-size: 22px;
+  }
+
+  #leo a {
+    font-size: 13px;
+  }
+
+  #skills-section h2 {
+    font-size: 26px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    width: 90%;
+    height: 120px;
+  }
+}
 

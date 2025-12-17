@@ -103,5 +103,114 @@ body{
   font-size: 14px;
   color: #ccc;
 }
+/* ================= TABLETS (max-width: 1024px) ================= */
+@media (max-width: 1024px) {
+
+  #max {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 40px;
+  }
+
+  #min {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #leo {
+    margin-left: 0;
+    width: 350px;
+  }
+
+  .project-container {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .project-card {
+    width: 380px;
+  }
+}
+
+
+/* ================= MOBILE (max-width: 768px) ================= */
+@media (max-width: 768px) {
+
+  body {
+    height: auto;
+  }
+
+  #max {
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  /* NAV STACK */
+  #min {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #leo {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #leo a {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .project-card ul li {
+    font-size: 13px;
+  }
+
+  .tech {
+    font-size: 13px;
+  }
+}
+
+
+/* ================= SMALL MOBILE (max-width: 480px) ================= */
+@media (max-width: 480px) {
+
+  #port {
+    font-size: 22px;
+  }
+
+  #leo a {
+    font-size: 13px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+}
+
 
 
