@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    black 0%,
+    black 50%,
+    rgb(0, 221, 255)
+  );
+}
+#max{
+    background-color:black;
+    height: 600px;
+    width: 1400px;
+    border-radius: 5%;
+    margin-top: 45px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 30px white;
+    
+}
+#port{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+     text-shadow: 0 0 10px rgb(0,221,255);
+}
+#min{
+    margin-left: 70px;
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leo{
+    margin-left: 150px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+#leo a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}
+#leo a:hover {
+  color: rgb(0, 221, 255);
+}
+#teo {
+  color: white;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left: 150px;
+  top: 70px;
+}
+#icon {
+  font-size: 40px;
+  position: relative;
+  left: 150px;
+  top: 85px;
+}
+#Download{
+    position: relative;
+  left: 150px;
+  top: 105px;
+  
+
+}
+#image{
+
+  position: absolute;
+  left: 1050px;
+  top: 200px;
+  
+}
+
+
+
+
+

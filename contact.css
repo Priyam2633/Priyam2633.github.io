@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    black 0%,
+    black 50%,
+    rgb(0, 221, 255)
+  );
+}
+#max{
+    background-color:black;
+    height: 600px;
+    width: 1400px;
+    border-radius: 5%;
+    margin-top: 45px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 30px white;
+    
+}
+#port{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+     text-shadow: 0 0 10px rgb(0,221,255);
+}
+#min{
+    margin-left: 70px;
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leo{
+    margin-left: 150px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+#leo a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}
+#leo a:hover {
+  color: rgb(0, 221, 255);
+}
+/* CONTACT SECTION */
+#contact-section{
+    position: relative;
+    top: 30px;
+    left: 400px;
+    width: 600px;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+
+h2{
+     position: absolute;
+    top: 90px;
+    left: 650px;
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* CONTACT BOX */
+.contact-box{
+    background-color: #111;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,221,255,0.4);
+}
+
+.contact-box p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.contact-box strong{
+    color: rgb(0, 221, 255);
+}
+
+.contact-box a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.contact-box a:hover{
+    color: rgb(0, 221, 255);
+    text-decoration: underline;
+}
+
+/* EMAIL BUTTON */
+#mail-btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 32px;
+    background-color: rgb(0, 221, 255);
+    color: black;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(0,221,255);
+    transition: 0.3s;
+}
+
+#mail-btn:hover{
+    background-color: white;
+    box-shadow: 0 0 25px white;
+}
+

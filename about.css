@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    black 0%,
+    black 50%,
+    rgb(0, 221, 255)
+  );
+}
+
+/* MAIN CONTAINER */
+#max{
+    background-color:black;
+    height: 600px;
+    width: 1400px;
+    border-radius: 5%;
+    margin-top: 45px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 30px white;
+}
+
+/* NAV */
+#port{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 0 0 10px rgb(0,221,255);
+}
+
+#min{
+    margin-left: 70px;
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leo{
+    margin-left: 150px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leo a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}
+
+#leo a:hover {
+  color: rgb(0, 221, 255);
+}
+
+/* ABOUT SECTION */
+#about-section{
+    position: relative;
+    left: 150px;
+    top: 25px;
+    width: 650px;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+/* ABOUT ME HEADING – WHITE */
+#about-section h2{
+    font-size: 40px;            /* Increased */
+    margin-bottom: 25px;
+    color: white;               /* Changed to white */
+    letter-spacing: 1px;
+}
+
+/* ABOUT TEXT */
+#about-section p{
+    font-size: 19px;            /* Increased font size */
+    line-height: 2;             /* Better readability */
+    margin-bottom: 18px;
+    color: #f1f1f1;
+    text-align: justify;        /* Proper justify */
+}
+
+/* HIGHLIGHT SKILLS (OPTIONAL – still looks good in white theme) */
+#about-section span{
+    color: rgb(0, 221, 255);
+    font-weight: 600;
+}
+
+/* BUTTON (UNCHANGED, just slightly improved spacing) */
+#about-btn{
+    margin-top: 30px;
+    padding: 14px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(0, 221, 255);
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    box-shadow: 0 0 15px rgb(0,221,255);
+    transition: 0.3s;
+}
+
+#about-btn:hover{
+    background-color: white;
+    box-shadow: 0 0 20px white;
+}
+

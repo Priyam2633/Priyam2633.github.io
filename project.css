@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    black 0%,
+    black 50%,
+    rgb(0, 221, 255)
+  );
+}
+#max{
+    background-color:black;
+    height: 600px;
+    width: 1400px;
+    border-radius: 5%;
+    margin-top: 45px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 30px white;
+    
+}
+#port{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+     text-shadow: 0 0 10px rgb(0,221,255);
+}
+#min{
+    margin-left: 70px;
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leo{
+    margin-left: 150px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+#leo a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}
+#leo a:hover {
+  color: rgb(0, 221, 255);
+}
+
+.section-title {
+  margin-top: 35px;
+  text-align: center;
+  color: #ccc;
+  font-size: 32px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  width: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 221, 255, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #ccc;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(0, 221, 255, 0.6);
+}
+
+.project-card h3 {
+  color: rgb(0, 221, 255);
+  margin-bottom: 10px;
+}
+
+.project-card ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.project-card ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.tech {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+
