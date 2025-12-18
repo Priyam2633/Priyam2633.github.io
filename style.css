@@ -78,8 +78,8 @@ body{
 }
 #image{
 
-  position: absolute;
-  left: 1050px;
+  position: fixed;
+  left: 950px;
   top: 200px;
   
 }

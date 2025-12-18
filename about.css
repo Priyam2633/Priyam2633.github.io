@@ -11,6 +11,7 @@ body{
   background-attachment: fixed;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* MAIN CONTAINER */
