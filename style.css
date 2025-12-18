@@ -6,7 +6,7 @@ body{
     black 50%,
     rgb(0, 221, 255)
   );
-
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
@@ -77,14 +77,14 @@ body{
 
 }
 #image{
-  position: absolute;   
-  right: 120px;
-  top: 180px;
-}
 
+  position: fixed;
+  left: 950px;
+  top: 200px;
+  
+}
 /* ---------- Large screens (default stays same) ---------- */
 /* Your current CSS works for desktop ≥1200px */
-
 
 /* ---------- Tablets (max-width: 1024px) ---------- */
 @media (max-width: 1024px) {
@@ -120,7 +120,6 @@ body{
     text-align: center;
   }
 }
-
 
 /* ---------- Mobile screens (max-width: 768px) ---------- */
 @media (max-width: 768px) {
@@ -177,7 +176,6 @@ body{
   }
 }
 
-
 /* ---------- Small mobiles (max-width: 480px) ---------- */
 @media (max-width: 480px) {
 
@@ -229,44 +227,11 @@ body{
   }
 
   /* IMAGE FIX (IMPORTANT PART) */
-  #teo img,
-  img {
+  #teo img,img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     object-fit: contain;
   }
-
 }
-@media (max-width: 768px) {
-  #max {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-/* ===== PERFECT IMAGE ALIGNMENT FOR MOBILE ===== */
-@media (max-width: 768px) {
-
-  #image {
-    position: static;      /* removes left/top completely */
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-
-  #image img {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-}
-
-
-
-
-
-
-
