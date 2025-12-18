@@ -9,6 +9,8 @@ body{
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  align-items: center;
 }
 
 /* MAIN CONTAINER */
@@ -17,8 +19,8 @@ body{
     height: 600px;
     width: 1400px;
     border-radius: 5%;
-    margin-top: 45px;
-    margin-left: 50px;
+    /* margin-top: 45px;
+    margin-left: 50px; */
     box-shadow: 0px 0px 30px white;
 }
 
