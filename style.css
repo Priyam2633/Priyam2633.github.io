@@ -18,8 +18,8 @@ body{
     height: 600px;
     width: 1400px;
     border-radius: 5%;
-    /* margin-top: 45px;
-    margin-left: 50px; */
+    margin-top: 45px;
+    margin-left: 50px;
     box-shadow: 0px 0px 30px white;
     
 }
@@ -78,7 +78,7 @@ body{
 }
 #image{
 
-  position: fixed;
+  position: absolute;
   left: 950px;
   top: 200px;
   
