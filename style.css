@@ -77,12 +77,11 @@ body{
 
 }
 #image{
-
-  position: fixed;
-  left: 950px;
-  top: 200px;
-  
+  position: absolute;   
+  right: 120px;
+  top: 180px;
 }
+
 /* ---------- Large screens (default stays same) ---------- */
 /* Your current CSS works for desktop ≥1200px */
 
@@ -240,6 +239,31 @@ body{
   }
 
 }
+@media (max-width: 768px) {
+  #max {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* ===== PERFECT IMAGE ALIGNMENT FOR MOBILE ===== */
+@media (max-width: 768px) {
+
+  #image {
+    position: static;      /* removes left/top completely */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  #image img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
 
 
 
